@@ -1,5 +1,9 @@
 .App {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
