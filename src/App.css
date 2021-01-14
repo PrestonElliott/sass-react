@@ -1,7 +1,6 @@
 .App {
   display: grid;
-  height: 100vh;
-  width: 100vw;
+  margin: 15rem;
   text-align: center;
   align-items: center;
 }
@@ -39,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  border: .5px grey;
+  border-radius: .22rem;
+  margin: .5rem;
 }
