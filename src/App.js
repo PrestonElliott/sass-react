@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Stoplight from './Stoplight.js' 
 
 function App() {

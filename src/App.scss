@@ -1,6 +1,5 @@
 .App {
   display: grid;
-  margin: 15rem;
   text-align: center;
   align-items: center;
 }
@@ -31,17 +30,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 button {
   border: .5px grey;
   border-radius: .22rem;
   margin: .5rem;
 }
+
+#stoplight-image {
+  height: 500px;
+  width: 250;
+;}

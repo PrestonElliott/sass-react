@@ -7,6 +7,7 @@ export default function Stoplight() {
     return (
         <div className="top-container">
             <h1 className="title">Stoplight!</h1>
+            <h3>{color}</h3>
             <img 
                 id="stoplight-image"
                 src={stoplightImage}
@@ -14,10 +15,11 @@ export default function Stoplight() {
 
 
             />
+            <br/>
             <button className="green" onClick={() => setColor('Green Light!')}>Green</button>
             <button className="yellow" onClick={() => setColor('Yellow Light!')}>Yellow</button>
             <button className="red" onClick={() => setColor('Red Light!')}>Red</button>
-            <h3>{color}</h3>
+            
             
         </div>
 
